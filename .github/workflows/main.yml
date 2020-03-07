@@ -1,12 +1,13 @@
 name: test hello action
 on:
   push:
-    branches: [ master ]
 
 jobs:
   build:
+  name: Hello action
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - name: Test Run
-      run: ./hello.sh
+    - uses: ./action.yml
+      with:
+        NAME: "hirantha"
