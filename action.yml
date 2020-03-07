@@ -1,4 +1,4 @@
 name: test hello action
 description: "Hello to world"
 author: "hirantha"
-run: ./hello.sh
+runs: ./hello.sh
