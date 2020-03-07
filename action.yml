@@ -2,6 +2,5 @@ name: test hello action
 description: "Hello to world"
 author: "hirantha"
 runs:
-  - steps:
-    - name: i dont know now
-      run: ./hello.sh
+  using: 'bash'
+  main: 'hello.sh'
