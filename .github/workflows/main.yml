@@ -7,6 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+    - name: "please work"
       uses: ./
       with:
         MY_NAME: "hirantha"
