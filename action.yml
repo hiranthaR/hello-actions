@@ -2,5 +2,5 @@ name: test hello action
 description: "Hello to world"
 author: "hirantha"
 runs:
-  using: 'bash'
-  main: 'hello.sh'
+  using: 'docker'
+  image: 'Dockerfile'
